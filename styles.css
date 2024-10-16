@@ -57,7 +57,7 @@ nav ul li a{
 /* Intro section starts here */
 
 .intro{
-    padding: 50px 500px 200px;
+    padding: 200px 500px ;
     display: flex;
     justify-content: space-between;
 }
@@ -79,3 +79,37 @@ nav ul li a{
 }
 
 /* Intro section ends here */
+
+/*Subgenres section starts here */
+
+.subgenres{
+    display: flex;
+    padding: 100px 500px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#allgenres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subgenres #allgenres div{
+    width: 200px;
+    height: auto;
+}
+
+.subgenres img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#information-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+/*Subgenres section ends here */
